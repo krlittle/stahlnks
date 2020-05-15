@@ -1,13 +1,13 @@
-package krlittle.stahlnks;
+package krlittle.stalnks;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StahlnksApplication {
+public class StalnksApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StahlnksApplication.class, args);
+		SpringApplication.run(StalnksApplication.class, args);
 	}
 
 }

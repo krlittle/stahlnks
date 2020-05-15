@@ -1,4 +1,4 @@
-package krlittle.stahlnks;
+package krlittle.stalnks;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

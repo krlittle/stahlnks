@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <title>#STALNKS</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<form action="#" th:action="@{/stalnks:calculate-cost}" th:object="${stalnksRequest}" method="post">
+    <p>Number of turnips: <input type="text" th:field="*{numberOfTurnips}" /></p>
+    <p>Cost per turnip: <input type="text" th:field="*{costPerTurnip}" /></p>
+    <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+</form>
+</body>
+</html>
