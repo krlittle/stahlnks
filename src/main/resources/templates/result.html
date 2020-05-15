@@ -5,9 +5,15 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-<h1>Result</h1>
-<p th:text="': ' + ${stalnks.id}" />
-<p th:text="'content: ' + ${stalnks.content}" />
-<a href="/stalnks">More stalnks?</a>
+    <h1>Result</h1>
+    <p th:text="'Number of turnips: ' + ${stalnks.numberOfTurnips}" />
+    <p th:text="'Initial cost per turnip: ' + ${stalnks.initialCostPerTurnip}" />
+    <p th:text="'Current bells per turnip: ' + ${stalnks.currentBellsPerTurnip}" />
+    <p th:text="'Total initial investment in turnips: ' + ${stalnks.totalInitialInvestmentInTurnips}" />
+    <p th:text="'Total income: ' + ${stalnks.totalIncome}" />
+    <p th:text="'Total profit: ' + ${stalnks.totalProfit}" />
+    <img src="/image"/>
+    <br/>
+    <a href="/stalnks">More stalnks?</a>
 </body>
 </html>
